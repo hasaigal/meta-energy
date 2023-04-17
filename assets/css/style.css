@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Nunito Sans', sans-serif; */
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-brand img {
+  height: 90px;
+}
+
+.navbar-brand {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-item a {
+  font-size: 19px;
+  font-family: "Dosis", sans-serif;
+  color: black !important;
+}
+
+.carousel img {
+  height: 80vh;
+  width: 100%;
+}
+
+#carousel h1 {
+  font-size: 6rem;
+  letter-spacing: 1px;
+}
+
+#carousel p {
+  font-size: 2.375rem;
+  letter-spacing: 1px;
+}
+
+.intro h2,
+#importers h2{
+  background-color: #dee2e6;
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.position-fixed{
+  left: 20px;
+}
+
+.whatsapp{
+  border: 3px solid #25d366;
+  border-radius: 50%;
+  height: 70px;
+  background-color: #25d366;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 4px 4px 4px 1px rgba(0, 0, 0, 0.05);
+  transform: scale(1.05);
+  transition: 250ms;
+  cursor: pointer;
+}
+
+.why-meta {
+  background: url(../images/pexels-pixabay-371917.webp) no-repeat center center
+    fixed;
+  background-size: cover;
+  height: 65vh;
+}
+
+.why-meta h2 {
+  font-size: 3.6rem;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+
+.why-meta p {
+  font-size: 18px;
+}
+
+
+#reviews, footer{
+  background-color: #212529;
+}
+
+#reviews h2{
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.reviews-img{
+  height: 70px;
+  width: 70px;
+}
+
+.five-star{
+  height: 17px;
+}
+
+
+#reviews p{
+  font-size: 21px;
+}
+
+#project{
+  background-color: #002855;
+}
+
+#project p{
+  font-size: 24px;
+}
+
+#project a{
+  font-size: 14px;
+  padding: 14px 38.4px;
+}
+
+
+.footer-logo{
+  height: 90px;
+}
+
+.social img{
+  height: 35px;
+}
+
+footer p{
+  font-size: 18px;
+}
+
+footer li{
+  padding-bottom: 20px;
+}
+
+footer li a{
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 800px) {
+  #carousel h1 {
+    font-size: 5rem;
+    letter-spacing: 1px;
+  }
+
+  #carousel p {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    height: 60px;
+  }
+
+  .navbar-brand {
+    font-size: 12px;
+  }
+
+  #carousel h1 {
+    font-size: 4rem;
+    letter-spacing: 1px;
+  }
+
+  #carousel p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .intro img {
+    height: 60px;
+  }
+
+  .why-meta h2 {
+    font-size: 2.5rem;
+  }
+
+  .reviews-img{
+    height: 50px;
+    width: 50px;
+  }
+
+  #reviews h4, #project p{
+    font-size: 12px;
+  }
+
+  .five-star{
+    height: 10px;
+  }
+
+  #reviews p{
+    font-size: 9px;
+    
+  }
+
+  #project a{
+    font-size: 14px;
+    padding: 7px 18.4px;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .navbar-brand img {
+    height: 45px;
+  }
+
+  .navbar-brand {
+    font-size: 10px;
+  }
+
+  #carousel h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+
+  #carousel p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+  }
+
+  .intro h2,
+  #importers h2, #reviews h2 {
+    font-size: 1.5rem;
+  }
+}
